@@ -12,11 +12,15 @@
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Roboto:700|News+Cycle:700|Open+Sans:400,600,700,800|Oswald:600" rel="stylesheet">
   <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="http://cdn.jsdelivr.net/qtip2/3.0.3/jquery.qtip.min.css">
   <link rel="stylesheet" href="./css/style.css">
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="http://cdn.jsdelivr.net/qtip2/3.0.3/jquery.qtip.min.js"></script>
+  <script type="text/javascript" src="./js/qtip_settings.js"></script>
+
 </head>
 
 <body id="page-top">
@@ -124,9 +128,9 @@
 
     <section class="impacts">
       <h1>Impacts on human and environmental health</h1>
-      <ul style="list-style-type:none">
-        <li><span class="bold">Human health</span>
-          <ul>
+
+        <h3>Human health</h3>
+          <ul class="impacts">
             <li>Residences adjacent to parking lots with coal-tar-based sealcoat have concentrations of PAHs in house dust 25 times higher than residences adjacent to unsealed pavement or asphalt-sealed pavement.
               <div class="has-tooltip">[References]</div>
               <div title="Human health"><a href="http://pubs.acs.org/doi/abs/10.1021/es902533r">Coal-tar-based parking lot sealcoat: An unrecognized source of PAH to settled house dust</a> (2010)</div>
@@ -141,11 +145,10 @@
               <div title="Human health"><a href="http://pubs.acs.org/doi/abs/10.1021/es303371t">Cancer risk from incidental ingestion exposures to PAHs associated with coal-tar-sealed pavement</a> (2013)</div>
             </li>
           </ul>
-        </li>
 
 
-        <li><span class="bold">Environmental health</span>
-          <ul>
+        <h3>Environmental health</h3>
+          <ul class="impacts">
             <li>Runoff from freshly applied coal-tar sealcoat is acutely toxic to two test organisms (fathead minnows (<span class="italics">Pimephales promelas</span>) and a water flea (<span class="italics">Ceriodaphnia dubia</span>)).
               <div class="has-tooltip">[References]</div>
               <div title="Environmental health"><a href="http://pubs.acs.org/doi/abs/10.1021/acs.est.5b00933">Acute toxicity of runoff from sealcoated pavement to <span class="italics">Ceriodaphnia dubia</span> and <span class="italics">Pimephales promelas</span></a>. (2015)</div>
@@ -154,18 +157,9 @@
               <div class="has-tooltip">[References]</div>
               <div title="Environmental health"><a href="http://pubs.acs.org/doi/abs/10.1021/acs.est.5b00933">Acute toxicity of runoff from sealcoated pavement to <span class="italics">Ceriodaphnia dubia</span> and <span class="italics">Pimephales promelas</span></a>. (2015)</div>
             </li>
-            <li>Runoff from coal-tar-sealed pavement, diluted 1:100, causes DNA damage when cells also are exposed to ultra-violet radiation that mimics sunlight.
-              <div class="has-tooltip">[References]</div>
-              <div title="Environmental health"><a href="http://www.sciencedirect.com/science/article/pii/S0048969715002703#">Exposure to runoff from coal-tar-sealed pavement induces genotoxicity and impairment of DNA repair capacity in the RTL-W1 fish liver cell line</a>. (2015)</div>
-            </li>
-            <li>Runoff from coal-tar-sealed pavement, diluted 1:10, impairs the ability of cells to repair DNA damage.
-              <div class="has-tooltip">[References]</div>
-              <div title="Environmental health"><a href="http://www.sciencedirect.com/science/article/pii/S0048969715002703#">Exposure to runoff from coal-tar-sealed pavement induces genotoxicity and impairment of DNA repair capacity in the RTL-W1 fish liver cell line</a>. (2015)</div>
-            </li>
           </ul>
-        </li>
+<p><a href="./impacts.html">More identified human and environmental impacts</a></p>
 
-      </ul>
     </section>
     <!-- end identified impacts section-->
 
@@ -209,7 +203,7 @@
         </div>
       </div>
 
-      <p class="text-center text-lg-right"><a href="/">View Photo Gallery</a></p>
+      <p class="text-center text-lg-right"><a href="./gallery.html">View Photo Gallery</a></p>
     </div>
   </aside>
 

@@ -44,7 +44,12 @@ h3 {
 p {
   margin: .5em 0em;
 }
-
+.bold {
+  font-weight: bold;
+}
+.italics {
+  font-style: italic;
+}
 main {
   padding: 10px;
 }
