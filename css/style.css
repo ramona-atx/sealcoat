@@ -120,7 +120,7 @@ Home page
 
 section.intro div.newpubs {
   background-color: #fcf0df;
-  border: 2px solid #5a4c38;
+  border: 1px solid #5a4c38;
   margin: 3px;
 }
 
@@ -241,18 +241,20 @@ About
 section.usgsresearch {
   margin: 1.5em;
   padding: 1em;
-  border: 1px solid black;
+  background-color: #fcf0df;
+  border: 1px solid #5a4c38;
   width: 30%;
 }
 
 .usgsresearch h1 {
   font-weight: bold;
-  font-size: 110%;
+  font-size: 130%;
 }
 
 .usgsresearch h2 {
   font-weight: bold;
   margin-top: 2em;
+  font-size:110%;
 }
 
 .usgsresearch img {
@@ -285,8 +287,8 @@ Publications
 .toc {
   margin: 1em;
   padding: 5px;
-  border: thin solid black;
-  background-color: #EAE8CC;
+  background-color: #fcf0df;
+  border: 1px solid #5a4c38;
 }
 
 .toc h3 {
